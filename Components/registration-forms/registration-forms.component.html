@@ -1,0 +1,82 @@
+<div class="container">
+
+    <div class="row justify-content-center mainRow">
+        <h2 class="col-12 pb-3 headingPart" style="text-align: center">
+            Registration Form
+        </h2>
+
+        <form>
+            <div class="row">
+                <div class="col-6">
+                    <label for="firstName">First Name</label>
+                    <input type="firstName" class="form-control" id="firstName" placeholder="">
+                </div>
+                
+                <div class="col-6">
+                    <label for="lastName">Last Name</label>
+                    <input type="lastName" class="form-control" id="firstName" placeholder="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+
+                <div class="col-6">
+                    <label for="selectCity">Select City</label>
+                    <select class="form-control" id="selectCity">
+                        <option>Mumbai</option>
+                        <option>Lucknow</option>
+                        <option>Kolkatta</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <label for="mobileNumber">Mobile Number:</label>
+                    <input formControlName="mobileNumber" type="number" class="form-control" id="mobileNumber"
+                        required />
+                </div>
+
+                <div class="col-6">
+                    <label for="selectCity">Select Gender</label>
+                    <div class="form-check-inline">
+                        <label class="form-check-label-inline" for="male">
+                            <input type="radio" class="form-check-input" id="rdbGender" name="rdbGender"
+                                value="rdbGender">Male
+                        </label>
+
+                        <div class="form-check-inline">
+                            <label class="form-check-label-inline" for="female">
+                                <input type="radio" class="form-check-input" id="rdbGender" name="rdbGender"
+                                    value="rdbGender">Female
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-check justify-content-center align-item-center">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row d-flex justify-content-center align-item-center">
+                <div class="col-6 text-right">
+                    <button type="submit" class="btn btn-primary mr-5 mt-3">
+                        Submit
+                    </button>
+                </div>
+            </div>
+        </form>
+</div>

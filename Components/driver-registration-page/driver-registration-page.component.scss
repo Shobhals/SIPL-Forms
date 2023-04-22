@@ -1,0 +1,60 @@
+.mainRow {
+    color: #fff;
+    background: rgb(0 0 0 / 62%);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+}
+
+.headingPart {
+    background-color: #3498db78;
+    border-top: 2px solid #70b6e569;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 5px solid #2372a778;
+    padding: 16px;
+    text-align: center;
+    initial-letter-align: center
+}
+
+.input,
+[label] {
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 2px;
+    width: 200px;
+    display: d-flex;
+}
+
+.input[type=date] {
+    align-items: center;
+    // display: d-flex;
+    size: 0;
+    padding: 1px;
+    width: 0;
+}
+
+label {
+    display: d-flex;
+    text-align: right;
+    width: 200px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    clear: left;
+}
+
+input[type="date"] {
+    align-items: center;
+    display: d-flex;
+    // width: 180px;
+    padding: 1px;
+}
+
+input {
+    width: 100%;
+}
+
+.form-select {
+    width: 180px;
+    size: 1px;
+    padding: 2px;
+}
